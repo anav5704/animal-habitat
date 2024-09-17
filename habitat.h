@@ -1,4 +1,5 @@
-#pragma once
+#ifndef HABITAT
+#define HABITAT
 
 #include <iostream>
 #include "animal.h"
@@ -69,3 +70,5 @@ public:
 
     virtual void printDetails();
 };
+
+#endif

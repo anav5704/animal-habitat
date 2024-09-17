@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ANIMAL
+#define ANIMAL
 
 #include <iostream>
 #include "habitat.h"
@@ -97,3 +98,5 @@ public:
 
     virtual void printDetails();
 };
+
+#endif
