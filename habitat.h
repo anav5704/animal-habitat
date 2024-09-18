@@ -21,7 +21,8 @@ public:
 
     Habitat();
     Habitat(int id, string name);
-    ~Habitat();
+    // Virtual destructors are needed when derived objects are stored in pointes of base class
+    virtual ~Habitat();
 
     virtual void printDetails();
     bool animalExists(Animal *animal);
